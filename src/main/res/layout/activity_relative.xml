@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hssy.com.controlimagechange.RelativeActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <Button
+            android:id="@+id/bt1"
+            android:text="我"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/bt2"
+            android:text="我在下面"
+            android:layout_below="@+id/bt1"
+            android:layout_toLeftOf="@+id/bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/bt3"
+            android:text="我在右边"
+            android:layout_above="@+id/bt1"
+            android:layout_toRightOf="@+id/bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/bt4"
+            android:text="我在左边"
+            android:layout_above="@+id/bt1"
+            android:layout_toLeftOf="@+id/bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/bt5"
+            android:text="我在右下"
+            android:layout_below="@+id/bt1"
+            android:layout_toRightOf="@+id/bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

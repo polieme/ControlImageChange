@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ControlImageChange</string>
+    <string name="sex_boy">男</string>
+    <string name="sex_girl">女</string>
+    <string name="start_activity">打开一个Activity</string>
+    <string name="start_relative_activity">打开一个RelativeLayOut</string>
+    <string name="TextView1">我们是一个TextView</string>
+</resources>
